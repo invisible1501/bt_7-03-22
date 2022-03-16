@@ -1,0 +1,85 @@
+.wrapper {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.name {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 19px;
+}
+
+.quantity {
+    color: rgb(192, 189, 189);
+}
+
+.image {
+    width: 100%;
+    height: fit-content;
+    padding: 10px 4px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    padding: 3px 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: thin solid rgb(238, 238, 238);
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+    width: 20%;
+}
+
+td.image {
+    width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.link {
+    width: 100%;
+    text-align: right;
+}
+
+.toHome button {
+    float: left;
+}
+
+.loading {
+    z-index: 100;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
